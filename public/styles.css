@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.row > div {
+  min-width: 20px;
+  min-height: 20px;
+  background-color: grey;
+  border: 0px solid white;
+}
+
+
+
+h1 {
+  background-color: #333333; 
+  color: #ffffff; 
+  font-size: 1.2em; 
+  padding: 0.5em 1em; 
+  text-align: center; 
+  width: 100%; 
+}
